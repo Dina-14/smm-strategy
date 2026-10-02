@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Шаг за шагом — твоя SMM-стратегия</title>
+  <meta name="description" content="Ответь на 10 вопросов и получи свою SMM-стратегию с пошаговым планом на 30 дней, шаблонами и понятными объяснениями.">
+  <meta name="theme-color" content="#FFF7EF">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Перейти к содержимому</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#/" aria-label="Шаг за шагом — на главную">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="32" height="32"><rect width="32" height="32" rx="10" fill="currentColor"/><path d="M8 22h5v-5h5v-5h6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span>Шаг за шагом</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-action="toggle-menu">
+        <span class="sr-only">Меню</span>
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Основная навигация">
+        <a href="#/strategy" data-nav="strategy">Моя стратегия</a>
+        <a href="#/plan" data-nav="plan">План на 30 дней</a>
+        <a href="#/learn" data-nav="learn">Обучение</a>
+        <a href="#/templates" data-nav="templates">Шаблоны</a>
+        <a href="#/pro" data-nav="pro">Для SMM-специалистов</a>
+        <a href="#/faq" data-nav="faq">FAQ</a>
+        <a class="btn btn-small" href="#/start" data-nav="start">Пройти диагностику</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="container" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Шаг за шагом</strong>
+        <p class="muted">Персональная SMM-стратегия простым языком.</p>
+      </div>
+      <nav aria-label="Нижняя навигация" class="footer-nav">
+        <a href="#/about">О нас</a>
+        <a href="#/faq">FAQ</a>
+        <a href="#/feedback">Обратная связь</a>
+        <a href="#/privacy">Конфиденциальность</a>
+      </nav>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/data/platforms.js"></script>
+  <script src="js/data/niches.js"></script>
+  <script src="js/data/questions.js"></script>
+  <script src="js/data/templates.js"></script>
+  <script src="js/data/articles.js"></script>
+  <script src="js/strategy.js"></script>
+  <script src="js/plan.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
